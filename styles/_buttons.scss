@@ -1,0 +1,28 @@
+
+/*
+ * Buttons
+ */
+ .btn {
+
+    cursor: pointer;
+    vertical-align: middle;
+    text-decoration: none;
+    background-color: $color-aquamarine;
+    color: $color-white;
+    border: none;
+    text-shadow: 0.5px -0.5px 0px rgba(0, 0, 0, 0.25);
+
+    &--add {
+        width: 250px;
+        height: 50px;
+        border-radius: 10px;
+        font-size: $typo-h3;
+        text-shadow: 0.5px -0.5px 0px rgba(0, 0, 0, 0.25);
+        font-weight: $typo-regular;
+    }
+
+
+    &:focus {
+       outline: none; 
+    }
+ }

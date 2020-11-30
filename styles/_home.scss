@@ -1,0 +1,292 @@
+.mainContainer{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100vh;
+    font-family: $typo-principal;
+
+    &Info{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 40%;
+        height: 70%;
+        margin-top: 50px;
+        margin-left: 70px;
+
+        &Text{
+            margin-top: 20px;
+
+            h1{
+                margin: 0px;
+                font-size: $typo-h1;
+                color: $color-blue;
+                font-weight: $typo-bolder;
+            }
+
+            h3{
+                margin: 0px;
+                margin-top: 20px;
+                font-size: $typo-h3;
+                color: $color-gray;
+                font-weight: $typo-regular;
+            }
+        }
+
+        & img{
+            width: 30%;
+        }
+    }
+
+    &Img{
+        display: flex;
+        width: 60%;
+        height: 100%;
+
+        & img {
+            width: 100%;
+            height: auto;
+        }
+    }
+}
+
+.whatIsContainer{
+    display: flex;
+    flex-direction: row;
+    background-color: $color-blue;
+
+    &Img{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+        padding: 40px;
+
+        img{
+            width: 80%;
+        }
+    }
+
+    &Info{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 50%;
+        margin-right: 40px;
+
+        h1{
+            color: $color-aquamarine;
+            font-family: $typo-principal;
+            font-size: $typo-h1;
+        }
+
+        h4{
+            font-family: $typo-text;
+            color: $color-white;
+            font-size: $typo-h4;
+            font-weight: $typo-regular;
+        }
+    }
+}
+
+.benefitsContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+
+    h1{
+        color: $color-blue;
+        font-family: $typo-principal;
+        font-size: $typo-h1;
+    }
+
+    &Details{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        align-items: center;
+
+        img{
+            width: 40%;
+        }
+
+        &Item{
+            display: flex;
+            flex-direction: column;
+            margin: 0px 40px;
+            width: 30%;
+
+            h2{
+                color: $color-blue;
+                margin: 0px;
+                font-family: $typo-principal;
+                font-size: $typo-h2; 
+                font-weight: $typo-semibold;   
+            }
+
+            h4{
+                color: $color-gray;
+                margin: 0px;
+                margin-top: 20px;
+                font-family: $typo-text;
+                font-size: $typo-h4;
+                font-weight: $typo-regular;   
+            }
+
+            &--alone{
+                margin: 0px;
+                margin-top: 30px;
+                width: 25%;
+                text-align: center;
+            }
+        }
+    }
+}
+
+.functionsContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: $color-blue;
+    padding: 20px;
+    margin-top: 40px;
+
+    h1{
+        color: $color-aquamarine;
+        font-family: $typo-principal;
+        font-size: $typo-h1;
+    }
+
+    &List{
+        margin: 40px 0px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+
+        &Item{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 20%;
+            text-align: center;
+
+            &Img{
+                width: 30%;
+
+                &--small{
+                    width: 22%;
+                }
+            }
+
+
+            h2{
+                margin: 0px;
+                margin-top: 20px;
+                font-family: $typo-principal;
+                color: $color-white;
+                font-size: $typo-h2;
+                font-weight: $typo-semibold; 
+            }
+            
+            h4{
+                margin: 0px;
+                margin-top: 20px;
+                font-family: $typo-text;
+                color: $color-white;
+                font-size: $typo-h4;
+                font-weight: $typo-regular; 
+            }
+        }
+    }
+}
+
+.demoContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+
+    h1{
+        margin: 0px;
+        color: $color-blue;
+        font-family: $typo-principal;
+        font-size: $typo-h1;
+    }
+
+    h3{
+        margin: 0px;
+        margin-top: 20px;
+        font-size: $typo-h3;
+        font-family: $typo-text;
+        color: $color-gray;
+        font-weight: $typo-regular;   
+    }
+
+    &Form{
+        margin-top: 40px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        width: 100%;
+        
+
+        &Info{
+            width: 40%;
+
+            &Input{
+                display: flex;
+                flex-direction: column;
+                width: 80%;
+
+                label{
+                    font-size: $typo-h4;
+                    font-family: $typo-text;
+                    color: $color-gray;
+                    font-weight: $typo-regular;   
+                }
+
+            }
+        }
+
+        &Img{
+            width: 40%;
+
+            img{
+                width: 100%;
+            }
+        }
+
+        button{
+            margin-top: 20px;
+        }
+    }
+}
+
+.textInput{
+    background: #F5F5F5;
+    height: 35px;
+    border: 1px solid $color-white;
+    border-radius: 10px;
+    color: $color-gray;
+    font-size: 13px;
+    padding-left: 15px;   
+    outline: none;
+    margin-bottom: 20px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+
+    &--area {
+        height: 150px;
+        padding-top: 14px;
+        resize: none;
+        width: 100%;
+        min-width: 100%;
+        min-height: 55px;
+        // overflow: hidden; /* Hide scrollbars */
+    }
+
+    :focus{
+        outline: none;
+    }
+}
