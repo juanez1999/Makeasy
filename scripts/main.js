@@ -30,5 +30,5 @@ btn.addEventListener('click',function(event){
     .catch(function(error) {
       console.error("Error adding document: ", error);
     });
-
+    
 });
