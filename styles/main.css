@@ -525,6 +525,7 @@ body {
   }
   .demoContainer h1 {
     text-align: center;
+    width: 80%;
   }
   .demoContainer h3 {
     text-align: center;
