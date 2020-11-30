@@ -14,7 +14,7 @@
                 <h1>Todas tus ventas organizadas</h1>
                 <h3>En un solo lugar</h3>
             </div>
-            <button class="btn btn--add">Adquirir Makeasy</button>
+            <a href="#demoContainer"><button class="btn btn--add">Adquirir Makeasy</button></a>
         </div>
         <div class="mainContainerImg">
             <img src="./data/imgSalient.png" alt="">
@@ -72,7 +72,7 @@
         
     </div>
 
-    <div class="demoContainer">
+    <div class="demoContainer" id="demoContainer">
         <h1>Obtén un demo</h1>
         <h3>Déjanos tu email si estás interesado en Makeasy.</h3>
         <div class="demoContainerForm">
@@ -80,17 +80,17 @@
                 <form action="">
                     <div class="demoContainerFormInfoInput">
                         <label for="name">Nombre*</label>
-                        <input id="name" class="textInput" type="text" name="name">
+                        <input id="name" class="textInput name" type="text" name="name">
                     </div>
                     <div class="demoContainerFormInfoInput">
                         <label for="email">Correo*</label>
-                        <input id="email" class="textInput" type="email" name="email">
+                        <input id="email" class="textInput email" type="email" name="email">
                     </div>
                     <div class="demoContainerFormInfoInput">
                         <label for="email">Mensaje</label>
-                        <textarea id="email" class="textInput textInput--area" name="message"></textarea>
+                        <textarea id="email" class="textInput textInput--area message" name="message"></textarea>
                     </div>
-                    <button class="btn btn--add">Adquirir Makeasy</button>
+                    <button class="btn btn--add btnForm">Adquirir Makeasy</button>
                 </form>
             </div>
             <div class="demoContainerFormImg">
@@ -100,6 +100,8 @@
         
     </div>
 
+    <script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-firestore.js"></script>
     <script src="./scripts/main.js"></script>
 </body>
 </html>
